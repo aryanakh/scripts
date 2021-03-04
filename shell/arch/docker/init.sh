@@ -7,7 +7,7 @@ set -e
 exec 3>&1 4>&2 &> >(tee -a /config/supervisord.log)
 
 cat << "EOF"
-Created by Binhex. Forked by.....
+Maintained by.....
                             _   _       _    _     
      /\                    | \ | |     | |  | |    
     /  \   _ __ _   _  __ _|  \| | __ _| | _| |__  
